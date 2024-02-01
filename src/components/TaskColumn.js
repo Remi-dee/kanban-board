@@ -7,7 +7,7 @@ import FourthColumn from "./Column/FourthColumn";
 
 function TaskColumn() {
   return (
-    <main className="md:flex   md:space-x-[30px] mx-4 my-5 md:mx-[30px] md:my-[30px]">
+    <main className="md:flex  md:space-x-[30px] mx-4 my-5 md:mx-[30px] md:my-[30px]">
       <FirstColumn />
       <SecondColumn />
       <ThirdColumn />
