@@ -9,7 +9,7 @@ import Oval4 from "../../assests/avatars/OvalCopy4.png";
 
 function BottomMenu() {
   return (
-    <div>
+    <main>
       <div className="md:flex px-3 py-5 md:px-[30px] md:py-[30px]">
         <div className="mb-[9px]  mr-[100px]">
           <h1 className=' className="text-black text-[26px] font-medium'>
@@ -65,7 +65,7 @@ function BottomMenu() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
