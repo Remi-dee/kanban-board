@@ -5,7 +5,7 @@ import TaskColumn from "./components/TaskColumn";
 
 function App() {
   return (
-    <div>
+    <div className=" md:max-w-[1920px]">
       <Navbar />
       <TaskColumn/>
     </div>

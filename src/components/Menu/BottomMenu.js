@@ -1,16 +1,16 @@
 import React from "react";
-import Heart from "../../assests/icons/Heart.png";
+import Heart from "../../assests/icons/heart.png";
 import Globe from "../../assests/icons/globe-2-outline.png";
-import Hard from "../../assests/icons/Hard.png";
-import Oval from "../../assests/avatars/Oval.png";
-import Oval2 from "../../assests/avatars/OvalCopy2.png";
-import Oval3 from "../../assests/avatars/OvalCopy3.png";
-import Oval4 from "../../assests/avatars/OvalCopy4.png";
+import Hard from "../../assests/icons/hard.png";
+import Oval from "../../assests/avatars/oval.png";
+import Oval2 from "../../assests/avatars/ovalCopy2.png";
+import Oval3 from "../../assests/avatars/ovalCopy3.png";
+import Oval4 from "../../assests/avatars/ovalCopy4.png";
 
 function BottomMenu() {
   return (
     <main>
-      <div className="md:flex px-3 py-5 md:px-[30px] md:py-[30px]">
+      <div className="md:flex px-4 py-5 md:px-[30px] md:py-[30px]">
         <div className="mb-[9px]  mr-[100px]">
           <h1 className=' className="text-black text-[26px] font-medium'>
             Brackets
