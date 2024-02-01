@@ -15,7 +15,7 @@ function SecondColumn() {
   const dynamicColors2 = ["bg-blue-500", "bg-red-500", "bg-teal-500"];
 
   return (
-    <div className="flex flex-col space-y-2.5">
+    <div className="flex flex-col space-y-2.5 mb-9 md:mb-0">
       <Header title={"Prototip"} />
       <Card
         title="Home business advertising ideas"

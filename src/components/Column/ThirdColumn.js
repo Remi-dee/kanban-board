@@ -20,7 +20,7 @@ function ThirdColumn() {
   ];
 
   return (
-    <div className="flex flex-col space-y-2.5">
+    <div className="flex flex-col space-y-2.5 mb-9 md:mb-0">
       <Header title={"Trello"} />
       <Card
         title="Old fashioned recipe for preventing allergies and chemical sensitivities"
