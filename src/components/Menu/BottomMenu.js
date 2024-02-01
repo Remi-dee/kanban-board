@@ -11,7 +11,7 @@ function BottomMenu() {
   return (
     <div>
       <div className="md:flex px-3 py-5 md:px-[30px] md:py-[30px]">
-        <div className="mb-[9px] mb-0 mr-[100px]">
+        <div className="mb-[9px]  mr-[100px]">
           <h1 className=' className="text-black text-[26px] font-medium'>
             Brackets
           </h1>
@@ -38,16 +38,27 @@ function BottomMenu() {
 
           <div className="flex space-x-[10px] md:space-x-[109px] ml-auto">
             <div className="flex ">
-              <img src={Oval} alt="Hard Drive" />
-              <img src={Oval2} alt="Person 1" className="-ml-[26px] md:-ml-5 " />
-              <img src={Oval3} alt="Person 2" className="-ml-[26px] md:-ml-5" />
-              <img src={Oval4} alt="Person 3" className="-ml-[26px] md:-ml-5 " />
-              <div className="flex bg-black -ml-[26px] md:-ml-5 text-xs font-normal text-white  p-2 rounded-full w-[50px] h-[50px] items-center justify-center">
+              <div>
+                <img src={Oval} alt="Person 1" />
+              </div>
+
+              <div className="-ml-[26px] md:-ml-5 ">
+                <img src={Oval2} alt="Person 2" />
+              </div>
+
+              <div className="-ml-[26px] md:-ml-5">
+                <img src={Oval3} alt="Person 3" />
+              </div>
+
+              <div className="-ml-[26px] md:-ml-5 ">
+                <img src={Oval4} alt="Person 4" />
+              </div>
+              <div className="flex bg-black -ml-[26px] md:-ml-5 text-xs font-normal text-white  p-2 rounded-full w-[40px] h-[40px] items-center justify-center">
                 44+
               </div>
             </div>
             <div>
-              <h2 className=' className="text-black text-[26px] font-medium'>
+              <h2 className=' className="text-black text-[26px] font-normal'>
                 Menu
               </h2>
             </div>
