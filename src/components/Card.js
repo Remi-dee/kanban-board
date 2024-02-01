@@ -62,7 +62,7 @@ function Card() {
             <img
                 src={Plus}
                 alt="Plus"
-                className="w-[24px] md:w-[30px]"
+                className="w-[9.6px] md:w-[12px] h-[9.6px] md:h-[12px]"
               />
             </div>
           </div>
