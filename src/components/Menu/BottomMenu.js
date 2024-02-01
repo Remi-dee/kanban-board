@@ -10,45 +10,47 @@ import Oval4 from "../../assests/avatars/OvalCopy4.png";
 function BottomMenu() {
   return (
     <div>
-      <div className="md:flex px-3 py-4 md:px-[30px] md:py-[9px]">
-        <div className="mr-[100px]">
+      <div className="md:flex px-3 py-5 md:px-[30px] md:py-[30px]">
+        <div className="mb-[9px] mb-0 mr-[100px]">
           <h1 className=' className="text-black text-[26px] font-medium'>
             Brackets
           </h1>
         </div>
 
-        <div className="flex items-center space-x-[9px] ">
-          <div className="">
-            <img src={Heart} alt="Logo" />
-          </div>
-          <div className="flex space-x-2.5">
-            <div class="border-l-[1px] opacity-10 border-black h-8 hidden md:block"></div>
-            <div className=" flex items-center  space-x-[4px] ">
-              <img src={Globe} alt="Logo" className="w-[19px] h-[19px]" />
-              <span className="opacity-10 text-black text-lg font-normal ">
-                Public
-              </span>
+        <div className="flex w-full ">
+          <div className="flex items-center space-x-[9px]  ">
+            <div className="">
+              <img src={Heart} alt="Logo" />
+            </div>
+            <div className="flex space-x-2.5">
+              <div class="border-l-[1px] opacity-10 border-black h-8 "></div>
+              <div className=" flex items-center  space-x-[4px] ">
+                <img src={Globe} alt="Logo" className="w-[19px] h-[19px]" />
+                <span className="opacity-10 text-black text-lg font-normal ">
+                  Public
+                </span>
+              </div>
+            </div>
+            <div className="">
+              <img src={Hard} alt="Hard Drive" />
             </div>
           </div>
-          <div className="">
-            <img src={Hard} alt="Hard Drive" />
-          </div>
-        </div>
 
-        <div className="flex space-x-[109px] ml-auto">
-          <div className="flex ">
-            <img src={Oval} alt="Hard Drive" />
-            <img src={Oval2} alt="Person 1" className="-ml-5 " />
-            <img src={Oval3} alt="Person 2" className="-ml-5 " />
-            <img src={Oval4} alt="Person 3" className="-ml-5 " />
-            <div className="flex bg-black -ml-5 text-xs font-normal text-white  p-2 rounded-full w-[40px] h-[40px] items-center justify-center">
-              44+
+          <div className="flex space-x-[10px] md:space-x-[109px] ml-auto">
+            <div className="flex ">
+              <img src={Oval} alt="Hard Drive" />
+              <img src={Oval2} alt="Person 1" className="-ml-[26px] md:-ml-5 " />
+              <img src={Oval3} alt="Person 2" className="-ml-[26px] md:-ml-5" />
+              <img src={Oval4} alt="Person 3" className="-ml-[26px] md:-ml-5 " />
+              <div className="flex bg-black -ml-[26px] md:-ml-5 text-xs font-normal text-white  p-2 rounded-full w-[50px] h-[50px] items-center justify-center">
+                44+
+              </div>
             </div>
-          </div>
-          <div>
-            <h2 className=' className="text-black text-[26px] font-medium'>
-              Menu
-            </h2>
+            <div>
+              <h2 className=' className="text-black text-[26px] font-medium'>
+                Menu
+              </h2>
+            </div>
           </div>
         </div>
       </div>
