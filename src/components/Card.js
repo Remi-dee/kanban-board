@@ -13,7 +13,7 @@ function Card({
 }) {
   return (
     <main>
-      <div className="bg-zinc-100 rounded-lg px-4 py-4 md:py-5 md:px-5 w-[288px] md:w-[362px]">
+      <div className="bg-zinc-100 rounded-lg px-4 py-4 md:py-5 md:px-5 w-[362px] md:w-[362px]">
         {imageUrl && (
           <div className="mb-3 md:mb-4">
             <img src={imageUrl} alt={title} />
