@@ -9,6 +9,7 @@ function Card({
   avatars,
   stats,
   avatarDivCount,
+  avatarDivColors,
 }) {
   return (
     <main>
@@ -23,7 +24,7 @@ function Card({
           {Array.from({ length: avatarDivCount }).map((_, index) => (
             <div
               key={index}
-              className="bg-yellow-500 rounded-md w-[60px] h-[8px]"
+              className={`${avatarDivColors[index]} rounded-md w-[60px] h-[8px]`}
             ></div>
           ))}
         </div>
