@@ -1,17 +1,15 @@
 import React from "react";
 
-import MessageBar from "../assests/icons/message-square-outline.png";
-import Heart from "../assests/icons/heart.png";
-import Attach from "../assests/icons/attach-outline.png";
-import Oval from "../assests/avatars/oval.png";
-import Oval2 from "../assests/avatars/ovalCopy2.png";
-import Oval3 from "../assests/avatars/ovalCopy3.png";
-import Oval4 from "../assests/avatars/ovalCopy4.png";
-
-import Photo1 from "../assests/images/photo1.png";
 import Plus from "../assests/icons/plus.png";
 
-function Card({ imageUrl, title, description, avatars, stats, avatarDivCount }) {
+function Card({
+  imageUrl,
+  title,
+  description,
+  avatars,
+  stats,
+  avatarDivCount,
+}) {
   return (
     <main>
       <div className="bg-zinc-100 rounded-lg px-4 py-4 md:py-5 md:px-5 w-[288px] md:w-[362px]">
@@ -38,7 +36,10 @@ function Card({ imageUrl, title, description, avatars, stats, avatarDivCount }) 
         <div className="flex justify-between mt-[26px]">
           <div className="flex ">
             {avatars.map((avatar, index) => (
-              <div key={index} className={index > 0 ? "-ml-[14px] md:-ml-[17px]" : ""}>
+              <div
+                key={index}
+                className={index > 0 ? "-ml-[14px] md:-ml-[17px]" : ""}
+              >
                 <img
                   src={avatar}
                   alt={`Person ${index + 1}`}

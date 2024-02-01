@@ -1,7 +1,7 @@
 import React from "react";
 import Heart from "../../assests/icons/heart.png";
 import Globe from "../../assests/icons/globe-2-outline.png";
-import Hard from "../../assests/icons/hard.png";
+
 import Oval from "../../assests/avatars/oval.png";
 import Oval2 from "../../assests/avatars/ovalCopy2.png";
 import Oval3 from "../../assests/avatars/ovalCopy3.png";
