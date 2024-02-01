@@ -27,7 +27,7 @@ function BottomMenu() {
               <div className=" flex items-center  space-x-[4px] ">
                 <img src={Globe} alt="Logo" className="w-[19px] h-[19px]" />
                 <span className="opacity-10 text-black md:text-lg  font-normal ">
-                  Public
+                  Publi
                 </span>
               </div>
             </div>
