@@ -62,7 +62,7 @@ function ThirdColumn() {
         ]}
       />
 
-      <div className="flex border border-dashed border-gray-300 rounded-lg  w-[408px] md:w-[362px] h-[100px] md:h-[160px] items-center justify-center ">
+      <div className="flex border border-dashed border-gray-300 rounded-lg   md:w-[362px] h-[100px] md:h-[160px] items-center justify-center ">
         + Add new card
       </div>
     </div>
