@@ -16,7 +16,7 @@ function Card({
       <div className="bg-zinc-100  rounded-lg px-4 py-4 md:py-5 md:px-5 md:w-[362px]">
         {imageUrl && (
           <div className="mb-3 md:mb-4 ">
-            <img src={imageUrl} alt={title} className="4 w-[380px]" />
+            <img src={imageUrl} alt={title} className=" w-full" />
           </div>
         )}
 
